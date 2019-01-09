@@ -1,0 +1,20 @@
+Poeng: 95/100
+
+Rettet av
+    Eirin Sognnes,
+    mev008@student.uib.no
+
+Merk at jeg har kommentert en del ting, men det betyr ikke nødvendigvis at du har mistet poeng av dette.
+
+UI-et ditt er litt bugga for meg og viser bare mange forskjellige tegn, i stedet for brikker. 
+Det kan være mange grunner til, så har ikke trukket noe for det.
+
+Det du burde sjekket for, er når du henter input fra brukeren om hvilken kolonne du skal putte i.
+Dersom jeg skriver inn noe som er større enn antall kolonner, så kræsjer programmet ditt. Her er det
+nok bedre å la brukeren få et nytt forsøk på å skrive inn.
+
+Bra med testing, men du kunne delt opp testene enda mer, slik at du har en metode for hver funksjon du 
+tester (f.eks. en test pr assert).
+
+Generelt mye bra her. Du kunne skilt UI-et enda mer ut, og fjernet UI-elementer fra Game (hatt det som en
+egen klasse), men ellers bra. Player/AI-player er løst på en god måte.
